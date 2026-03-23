@@ -1,6 +1,5 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import { useState } from 'react';
 
 const aboutLinks = [
@@ -96,7 +95,7 @@ export default function Footer() {
             <div className="flex items-center gap-3">
               {/* Logo mark */}
               <a href="/" className="shrink-0 transition-transform hover:scale-105 duration-300">
-                <img 
+                <img
                   src="/assets/brandassets/GEEKBOZ-BRAND-logo-2-copy.webp" 
                   alt="GeekBoz" 
                   className="h-10 md:h-12 w-auto object-contain"

@@ -475,9 +475,9 @@ export default function ProductDetailClient({ productId }: { productId: string }
 
                   {/* What's included */}
                   <div className="p-4 sm:p-6 bg-white/[0.015] border border-white/[0.06]" style={{ borderRadius: 14 }}>
-                    <h4 className="text-[9px] sm:text-[10px] text-[#A4F93F]/60 font-bold tracking-[0.25em] uppercase mb-3 sm:mb-5">
-                      What's Included
-                    </h4>
+                 <h4 className="text-[9px] sm:text-[10px] text-[#A4F93F]/60 font-bold tracking-[0.25em] uppercase mb-3 sm:mb-5">
+  What&apos;s Included
+</h4>
                     <div className="flex flex-col gap-2.5 sm:gap-3.5">
                       {[
                         'Fully Assembled Desktop',
